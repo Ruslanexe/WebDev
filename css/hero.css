@@ -1,0 +1,16 @@
+.hero__illustration {
+  display: flex;
+  justify-content: center;
+  padding-right: 152px;
+  padding-left: 163px;
+  margin-top: -40px;
+}
+.hero_car_img {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 560px;
+  padding-left: 0px;
+  padding-right: 1216px;
+  margin-top: -830px;
+}

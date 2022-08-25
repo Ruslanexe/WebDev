@@ -1,0 +1,16 @@
+.footer {
+  justify-content: space-around;
+  width: 1600px;
+  height: 205px;
+  background: #f16353;
+  display: flex;
+  align-items: center;
+}
+.footer p{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #F8F9FA;
+}
