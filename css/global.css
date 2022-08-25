@@ -1,0 +1,30 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #e5e5e5;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li {
+  display: block;
+}
+
+button {
+  border: none;
+  background: #ee4d47;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}

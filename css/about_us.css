@@ -1,0 +1,51 @@
+.paragraph_about_us {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+  color: #402b2b;
+}
+.text_second_section {
+  width: 540px;
+  padding-top: 192px;
+  padding-left: 180px;
+  position: relative;
+}
+.about_us {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+  color: #402b2b;
+}
+.article {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  color: #ee4d47;
+}
+.img_second_section {
+  margin-top: -400px;
+  padding-left: 800px;
+}
+.bordered_text {
+  display: flex;
+  height: 160px;
+  width: 570px;
+  border-left: solid #ed4d47;
+  border-width: 10px;
+  border-radius: 5px;
+  background-color: rgb(252, 221, 212, 0.4);
+}
+.papugai {
+  padding-left: 55px;
+  padding-right: 70px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #402b2b;
+}
+/*
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+*/
