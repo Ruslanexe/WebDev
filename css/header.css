@@ -1,0 +1,71 @@
+.header {
+  gap: 18.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+  padding-right: 8.125rem;
+}
+.container {
+  position: absolute;
+  top: 0rem;
+  justify-content: center;
+  margin-right: 0.75rem;
+}
+.header_nav ul {
+  display: flex;
+}
+.header_without_logo {
+  display: flex;
+}
+.header_title {
+  display: flex;
+}
+
+.header_nav-item {
+  align-items: center;
+  margin-right: 4.688rem;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 43.75rem;
+  line-height: 1.188rem;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.header_button {
+  border-radius: 0.313rem;
+  height: 3.75rem;
+  max-width: 9.875rem;
+  border: none;
+}
+.text_title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 25rem;
+  font-size: 6.25rem;
+  line-height: 100%;
+  max-width: 46.313rem;
+  color: #ffffff;
+}
+.text_title p {
+  margin: 4.625rem 0 3.75rem 0;
+}
+.text_button {
+  height: 3.75rem;
+  max-width: 13.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2.75rem;
+  background: #ee4d47;
+  border-radius: 0.313rem;
+  font-weight: 43.75rem;
+  font-size: 1rem;
+  line-height: 1.188rem;
+  letter-spacing: 0.05em;
+}
+
+.text_button a span {
+  padding: 0 3.438rem 0 0;
+  background: url("/img/arrow.png") right no-repeat;
+}
