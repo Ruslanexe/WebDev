@@ -1,0 +1,31 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #e5e5e5;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1600px;
+  padding: 0px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li {
+  display: block;
+}
+
+button {
+  border: none;
+  background: #ee4d47;
+  border-radius: 0.313rem;
+  font-weight: 43.75rem;
+  font-size: 1rem;
+  line-height: 1.188rem;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
