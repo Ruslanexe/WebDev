@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Invitation App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="invitation">
+        <header id="header">
+          <h1>Helicopters</h1>
+        </header>
+        <main class="main">
+          <form id="inviteForm">
+            <input type="text" name="name" placeholder="Find it" />
+            <button id="find_button" type="submit">Find</button>
+          </form>
+          <ul id="invitedList">
+            <li>
+              <article >Create</article>
+              <li>
+                <article>Passengers</article>
+                <input type="text" class="form-control" id="passengersInput" /></li>
+              <li>
+                <article>Name</article>
+                <input type="text" class="form-control" id="nameInput" /></li>
+              <li>
+                <article>Speed</article>
+                <input type="text" class="form-control" id="speedInput" />
+              </li>
+              <button id="submit_button" class="submit_button" type="submit">Submit</button>
+              <section class="buttons">
+              <button id="cancel_find_button" type="submit" class="pretty">Cancel Find</button>
+              <button id="countSpeed" type="submit"  class="pretty">Count</button  >
+              <button id="sort_helicopters" type="submit" class="pretty">Sort</button>
+            </li>
+            <ul class="items" id="items_container">
+            </ul>
+            </section>
+        </main>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="index.js"></script>
+</html>
